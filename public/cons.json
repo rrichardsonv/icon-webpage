@@ -1,0 +1,37 @@
+{
+  "cons": [{
+    "id": "AAA",
+    "title": "A-Con",
+    "start_date": "25052017",
+    "end_date": "27052017",
+    "tickets": "https://wizardworldchicago.frontgatetickets.com/event/er6j1t2vlb050gad",
+    "location": "Rosemont Convention Center",
+    "url": "https://wizardworldchicago.com",
+    "sponsors":[{
+      "name": "Google",
+      "url": "https://google.com",
+      "logo": "http://www.famouslogos.org/wp-content/uploads/2009/04/googfav.png"
+    }, {
+      "name": "Reddit",
+      "url": "https://reddit.com",
+      "logo": "https://image.freepik.com/free-icon/reddit-logo_318-67806.jpg"
+    }]
+  }, {
+    "id": "BBB",
+    "title": "B2E2",
+    "start_date": "25072017",
+    "end_date": "27072017",
+    "tickets": "http://www.c2e2.com/Tickets/Buy-Tickets/",
+    "location": "McCormick Place",
+    "url": "http://www.c2e2.com",
+    "sponsors":[{
+      "name": "Dole",
+      "url": "http://www.dole.com",
+      "logo": "http://www.dole.com/sites/dole_com/images/logo-dole-2x.png"
+    }, {
+      "name": "Chiquita Bananas",
+      "url": "http://www.chiquitabananas.com/",
+      "logo": "http://www.chiquitabananas.com/img/chiquita-logo.png"
+    }]
+  }]
+}
