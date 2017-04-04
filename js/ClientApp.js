@@ -6,6 +6,7 @@ import store from './store'
 import Landing from './Landing'
 import HeaderBar from './HeaderBar'
 import Events from './Events'
+import Tournaments from './Tournaments'
 import '../public/normalize.css'
 // import '../public/style.css'
 import '../public/main.css'
@@ -19,6 +20,7 @@ const App = React.createClass({
             <HeaderBar />
             <Match exactly pattern='/' component={Landing} />
             <Match exactly pattern='/events' component={Events} />
+            <Match exactly pattern='/tournaments' component={Tournaments} />
           </div>
         </Provider>
       </BrowserRouter>
