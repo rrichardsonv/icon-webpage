@@ -12,11 +12,15 @@ const SponsorCard = React.createClass({
   render () {
     const { name, url, logo } = this.props.sponsor
     return (
-      <div className='show-card'>
-        {`Sponsored by:${name}`}
-        <a href={url}>
-          <img className='sm-logo' src={logo} />
-        </a>
+      <div className='row'>
+        <div className='panel panel-danger'>
+          <div className='panel-heading'><a href={url}>{`Sponsored by:${name}`}</a></div>
+          <div className='panel-body'>
+            <img className='sm-logo' src={logo} />
+            <p>
+            My name is Bryan Collins and I am a student of the Digital Skills Academeny WebElevate 2.1 programme, where I specialised</p>
+          </div>
+        </div>
       </div>
     )
   }

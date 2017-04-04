@@ -32,35 +32,24 @@ const JumboEvent = React.createClass({
               </div>
               <div className='inner-wrapper'>
                 <div className='center-block btn-group-justified card-menu pd-tb-1'>
-                  <a href='#' className='btn btn-primary'>
+                  <a href={tickets} className='btn btn-primary'>
                     Tickets
                   </a>
-                  <a href='#' className='btn btn-primary'>
+                  <a href={`https://maps.google.com/?q=${location}`} className='btn btn-primary'>
                     Directions
                   </a>
-                  <a href='#' className='btn btn-primary'>
+                  <a href={url} className='btn btn-primary'>
                     Website
                   </a>
                 </div>
               </div>
             </div>
             <div className='col-md-8'>
-              <div className='row'>
-                <div className='panel panel-danger'>
-                  <div className='panel-heading'>{`${startdate}----${enddate}`}</div>
-                  <div className='panel-body'>
-                    My name is Bryan Collins and I am a student of the Digital Skills Academeny WebElevate 2.1 programme, where I specialised
-                  </div>
-                </div>
-              </div>
-              <div className='row'>
-                <div className='panel panel-danger'>
-                  <div className='panel-heading'>{`${startdate}----${enddate}`}</div>
-                  <div className='panel-body'>
-                    My name is Bryan Collins and I am a student of the Digital Skills Academeny WebElevate 2.1 programme, where I specialised
-                  </div>
-                </div>
-              </div>
+              {sponsors.map((sponsor) => {
+                return(
+                  <SponsorCard sponsor={sponsor} />
+                )
+              })}
             </div>
           </div>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import SponsorCard from './SponsorCard'
+// import SponsorCard from './SponsorCard'
 const { shape, string, arrayOf, object } = React.PropTypes
 
 const EventCard = React.createClass({
