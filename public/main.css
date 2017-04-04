@@ -135,10 +135,34 @@ a.l-rect {
 }
 
 
-@media only screen and (max-width: 767px) {
-    .events-content {
-      padding-top: 4.5em;
-    }
+.item{
+  position:relative;
+  float: left;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+
+@media only screen and (max-width: 560px){
+  .item-responsive{
+    width: 96%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .events-content {
+    padding-top: 4.5em;
+  }
+}
+
+
+@media only screen and (max-width: 767px) and (min-width: 560px) {
+  .events-content {
+    padding-top: 4.5em;
+  }
+
+  .item-responsive{
+    width: 48%;
+  }
     /*fix button group from justified to stack switch in events*/
 }
 
@@ -146,6 +170,10 @@ a.l-rect {
     .events-content {
         padding-top: 7em;
     }
+
+    .item-responsive{
+      width: 33.3333333333%;
+    }    
 }
 
 
@@ -169,13 +197,6 @@ a.l-rect {
   margin-top: -1em;
 }
 
-.item{
-  position:relative;
-  float: left;
-  width: 33.3333333333%;
-  margin-right: 5px;
-  margin-left: 5px;
-}
 .event-card-bg{
   display:inline;
   width: 100%;

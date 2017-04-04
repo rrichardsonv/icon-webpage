@@ -18,7 +18,7 @@ const EventCard = React.createClass({
   render () {
     const { title, startdate, enddate, tickets, location, url, sponsors } = this.props.con
     return (
-      <div className='item'>
+      <div className='item item-responsive'>
         <div className='inner-wrapper'>
           <img className='event-card-bg' src='../public/img/logo.png' />
         </div>
