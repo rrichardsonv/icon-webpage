@@ -1,0 +1,236 @@
+/*TABLE OF CONTENTS
+  I. Global styles(12)
+    A. HTML element styles(13)
+  II.  Top-level Parent class styles
+    A. Containers
+    B. Wrappers
+
+
+
+
+*/
+
+
+/*I.  Global styles  */
+* {
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:;
+  font-size: 100%;
+  font-family: 'PT Sans', sans-serif;
+}
+/*  A.  HTML element styles */
+/*    1.  Block Level  */
+
+
+/*II:   Top Level Parent class styles  */
+/*  A.  Containers  */
+/*  B.  Wrappers  */
+.app {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+/*  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #333;*/
+}
+.iCon{
+  background-image: url(public/img/logo.png);
+  background-size: cover;
+  background-position: 0% 13%;
+}
+
+.button-wrapper {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.main-header {
+  z-index: 10;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: #fafafa;
+  padding: 8px 30px;
+}
+
+.main-header > h1 {
+  font-family: Skia;
+  font-weight: normal;
+  color: #B10DC9;
+  margin: 0;
+}
+
+.main-header > h1 > a {
+  color: #B10DC9;
+  text-decoration: none;
+}
+
+.main-header > h2 {
+  font-weight: normal;
+  margin: 0;
+}
+
+.main-header > h2 > a {
+  color: #aaa;
+  text-decoration: none;
+}
+.landing {
+  position: relative;
+}
+
+a.button {
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+a.l-rect {
+  position: absolute;
+  /*z-index: -1;*/
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #e93f33;
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow: 0 0 1px transparent;
+  color: #f4f4f4;
+  transition-duration: 0.3s;
+}
+
+.sm-logo {
+  top:0;
+  height: 3em;
+  width: 3em;
+}
+
+.next-event{
+  background-image: url(public/img/2.jpg);
+  opacity: 0.7;
+  margin-top:10em;
+  background-size: cover;
+  background-position: center;
+}
+.card-menu{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 85%;
+  /*margin: 0 auto;*/
+}
+
+
+@media only screen and (max-width: 767px) {
+    .events-content {
+      padding-top: 4.5em;
+    }
+    /*fix button group from justified to stack switch in events*/
+}
+
+@media only screen and (min-width: 768px) {
+    .events-content {
+        padding-top: 7em;
+    }
+}
+
+
+.mg-t-1{
+  margin-top: 1em;
+}
+
+.next-event-title{
+  text-align: center;
+}
+
+.fl-r{
+  float: right;
+}
+
+.nav-btn{
+  opacity: 0.9;
+}
+
+.nav-btn-group{
+  margin-top: -1em;
+}
+
+.item{
+  position:relative;
+  float: left;
+  width: 33.3333333333%;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.event-card-bg{
+  display:inline;
+  width: 100%;
+  height: auto;
+  max-width:100%;
+  vertical-align: middle;
+  border: 0;
+}
+
+.inner-wrapper{
+  display: block;
+}
+.overlay{
+  position: relative;
+  display: block;
+  position: absolute;
+  z-index: 12;
+  top: 0;
+  bottom: 0;
+  padding: 15px;
+  left: 6px;
+  right: 6px;
+  background: linear-gradient(transparent, white);
+}
+.overview{
+  background-color: white;
+  color: red;
+  opacity: 0.6;
+  display: block;
+  position: absolute;
+  z-index: 12;
+  bottom: 0;
+  padding: 0px 15px 10px;
+  vertical-align: baseline;
+  left: 6px;
+  right: 6px;
+}
+
+
+.details-wrapper{
+  opacity: 0;
+  color:#2E2E2E;
+  z-index: 12;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  left: 6px;
+  right: 6px;
+  padding: 15px 20px 25px 20px;
+}
+.details-wrapper:hover{
+  opacity: 0.9;
+}
+

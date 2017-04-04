@@ -10,19 +10,7 @@ html {
   font-family: Helvetica Neue, Helvetica, sans-serif;
 }
 
-.app {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  background-image: url(public/img/1.jpg);
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: #333;
-}
+
 
 .app > h1 {
   color: white;
@@ -160,43 +148,6 @@ pre {
   margin-top: 25px;
 }
 
-header {
-  z-index: 10;
-  position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  text-align: center;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  background-color: #fafafa;
-  padding: 8px 30px;
-}
-
-header > h1 {
-  font-family: Skia;
-  font-weight: normal;
-  color: #B10DC9;
-  margin: 0;
-}
-
-header > h1 > a {
-  color: #B10DC9;
-  text-decoration: none;
-}
-
-header > h2 {
-  font-weight: normal;
-  margin: 0;
-}
-
-header > h2 > a {
-  color: #aaa;
-  text-decoration: none;
-}
-
 .details > div {
   width: 100%;
   height: 0;
@@ -258,3 +209,4 @@ header > input {
 .details > header + section {
   margin-top: 25px;
 }
+
