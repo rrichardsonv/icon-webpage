@@ -46,7 +46,7 @@ const JumboEvent = React.createClass({
             </div>
             <div className='col-md-8'>
               {sponsors.map((sponsor) => {
-                return(
+                return (
                   <SponsorCard sponsor={sponsor} />
                 )
               })}

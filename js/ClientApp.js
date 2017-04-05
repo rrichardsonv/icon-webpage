@@ -9,7 +9,6 @@ import Events from './Events'
 import Tournaments from './Tournaments'
 import About from './About'
 import '../public/normalize.css'
-// import '../public/style.css'
 import '../public/main.css'
 
 const App = React.createClass({

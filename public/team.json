@@ -1,0 +1,24 @@
+{
+  "team":[{
+    "name": "Ron",
+    "id": "1",
+    "title": "Leader/Founder",
+    "headshot": "ron.jpg",
+    "character": "cf.png",
+    "blurb": "Interests: Star Wars, tattoos, taco Tuesday, Bioshock, Chinese food, Superfight, Splatoon, Harvey Dent… can we trust him?"
+  }, {
+    "name": "Gabe",
+    "id": "3",
+    "title": "Games Coordinator",
+    "headshot": "gabe.jpg",
+    "character": "tl.png",
+    "blurb": "Professional sushi eater, champion extreme sleeper, 9th gym leader in Kanto, JRPG Novice. Interests: Traveling through time and space, reading manga, watching anime, running and fighting evil exes, learning new abilities and people. Other Alias: Gobe, Jabe, EE, Asian #1, That guy, This guy, Spoder-man, Who?"
+  }, {
+    "name": "Maggie",
+    "id": "2",
+    "title": "Marketing Manager | Artist | Social Media Manager",
+    "headshot": "maggie.jpg",
+    "character": "co.png",
+    "blurb": "Pug Lover, Cat Owner, Not So Grump, Earthbender Interests: Sharpie doodles, greasy cheeseburgers, cities at night, studio ghibli, precursor pieces of crap. Goals: Own two pugs, sell my art, find the blacksmith."
+  }]
+}

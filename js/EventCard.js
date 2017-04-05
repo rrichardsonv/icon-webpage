@@ -16,7 +16,7 @@ const EventCard = React.createClass({
     })
   },
   render () {
-    const { title, startdate, enddate, tickets, location, url, sponsors } = this.props.con
+    const { title, startdate, enddate, tickets, url } = this.props.con
     return (
       <div className='item item-responsive'>
         <div className='inner-wrapper'>
