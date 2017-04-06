@@ -7,8 +7,8 @@ const JumboEvent = React.createClass({
     con: shape({
       id: string,
       title: string,
-      start_date: string,
-      end_date: string,
+      startDate: string,
+      endDate: string,
       tickets: string,
       location: string,
       url: string,
@@ -16,10 +16,11 @@ const JumboEvent = React.createClass({
     })
   },
   render () {
-    const { title, startdate, enddate, tickets, location, url, sponsors } = this.props.con
+    const { title, startDate, endDate, tickets, location, url, sponsors } = this.props.con
     return (
       <div className='jumbotron next-event'>
         <div className='container-fluid'>
+          <h3>{`${startDate} - ${endDate}`}</h3>
           <h1 className='col-md-offset-8 next-event-title'>
             <a href={url}>
               {title}

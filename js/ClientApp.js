@@ -8,7 +8,8 @@ import HeaderBar from './HeaderBar'
 import Events from './Events'
 import Tournaments from './Tournaments'
 import About from './About'
-import '../public/normalize.css'
+import Contact from './Contact'
+import '../public/css/normalize.css'
 import '../public/main.css'
 
 const App = React.createClass({
@@ -22,6 +23,7 @@ const App = React.createClass({
             <Match exactly pattern='/events' component={Events} />
             <Match exactly pattern='/tournaments' component={Tournaments} />
             <Match exactly pattern='/about' component={About} />
+            <Match exactly pattern='/contact' component={Contact} />
           </div>
         </Provider>
       </BrowserRouter>
