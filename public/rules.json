@@ -1,0 +1,39 @@
+{
+  "rules":{
+    "general":[{
+      "name": "3-Stock",
+      "icon": "//placehold.it/47x75",
+      "text": "yadda yadda yadda yaddayadda yadda. yadda yadda yadda yadda yadda yadda."
+    }, {
+      "name": "Double Elimination",
+      "icon": "//placehold.it/47x75",
+      "text": "yadda yadda yadda yaddayadda yadda. yadda yadda yadda yadda yadda yadda."
+    }],
+    "doubles":[{
+      "name": "Stage Striking",
+      "icon": "//placehold.it/47x75",
+      "text": "yadda yadda yadda yaddayadda yadda. yadda yadda yadda yadda yadda yadda."
+    }, {
+      "name": "Counter-picking",
+      "icon": "//placehold.it/47x75",
+      "text": "yadda yadda yadda yaddayadda yadda. yadda yadda yadda yadda yadda yadda."
+    }, {
+      "name": "Best of 3",
+      "icon": "//placehold.it/47x75",
+      "text": "yadda yadda yadda yaddayadda yadda. yadda yadda yadda yadda yadda yadda."
+    }],
+    "singles":[{
+      "name": "Stage Striking",
+      "icon": "//placehold.it/47x75",
+      "text": "yadda yadda yadda yaddayadda yadda. yadda yadda yadda yadda yadda yadda."
+    }, {
+      "name": "Counter-picking",
+      "icon": "//placehold.it/47x75",
+      "text": "yadda yadda yadda yaddayadda yadda. yadda yadda yadda yadda yadda yadda."
+    }, {
+      "name": "Best of 3",
+      "icon": "//placehold.it/47x75",
+      "text": "yadda yadda yadda yaddayadda yadda. yadda yadda yadda yadda yadda yadda."      
+    }]
+  }
+}

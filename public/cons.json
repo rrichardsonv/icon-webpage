@@ -2,11 +2,11 @@
   "cons": [{
     "id": "AAA",
     "title": "A-Con",
-    "start_date": "25052017",
-    "end_date": "27052017",
+    "startDate": "May 25, 2017",
+    "endDate": "May 27, 2017",
     "tickets": "https://wizardworldchicago.frontgatetickets.com/event/er6j1t2vlb050gad",
     "location": "Rosemont Convention Center",
-    "url": "https://wizardworldchicago.com",
+    "url": "http://wizardworld.com",
     "sponsors":[{
       "name": "Google",
       "url": "https://google.com",
@@ -19,8 +19,8 @@
   }, {
     "id": "BBB",
     "title": "B2E2",
-    "start_date": "25072017",
-    "end_date": "27072017",
+    "startDate": "July 25, 2017",
+    "endDate": "July 27, 2017",
     "tickets": "http://www.c2e2.com/Tickets/Buy-Tickets/",
     "location": "McCormick Place",
     "url": "http://www.c2e2.com",
